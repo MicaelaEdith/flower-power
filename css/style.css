@@ -295,6 +295,14 @@ justify-content: center;
     margin-top: 2vh;
     margin-bottom: 1vh;
   }
+
+  .product-section{
+    flex-direction: column;
+  }
+  .basics-text{
+    text-align: center;
+    max-width: 85%;
+  }
   
 }
 
