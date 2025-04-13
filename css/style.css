@@ -296,13 +296,6 @@ justify-content: center;
     margin-bottom: 1vh;
   }
 
-  .product-section{
-    flex-direction: column;
-  }
-  .basics-text{
-    text-align: center;
-    max-width: 85%;
-  }
   
 }
 
@@ -332,6 +325,13 @@ justify-content: center;
 
   .navbar-brand {
     margin: 0;
+  }
+  .product-section{
+    flex-direction: column;
+  }
+  .basics-text{
+    text-align: center;
+    max-width: 85%;
   }
 
 }
