@@ -226,7 +226,7 @@ justify-content: center;
   border-radius: 8px;
 }
 
-.who {
+.about {
   width: 100%;
   max-width: 1200px;
   margin-inline: auto;
@@ -235,12 +235,12 @@ justify-content: center;
   padding: 2vh 2vw;
 }
 
-.who img{
+.about img{
   width: 40vw;
   margin: 2vw;
 }
 
-.who p{
+.about p{
   width: 40vw;
   margin: 2vw;
 }
@@ -261,16 +261,16 @@ justify-content: center;
     width: 80vw;
   }
 
-  .who{
+  .about{
     flex-direction: column;
   }
 
-  .who img{
+  .about img{
     width: 80vw;
     margin: 2vw;
   }
 
-  .who p{
+  .about p{
     width: 80vw;
     margin: 2vw;
     text-align: center;
