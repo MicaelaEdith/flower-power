@@ -251,11 +251,9 @@ justify-content: center;
     align-items: center;
   }
 
-  
   main .img{
     width: 80vw;
   }
-
 
   main .main-text{
     width: 80vw;
@@ -263,6 +261,10 @@ justify-content: center;
 
   .navbar{
     height: 10vh;
+  }
+
+  .nav-item{
+    background-color: var(--my-card-color);
   }
 
   .about{
