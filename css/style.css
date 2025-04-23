@@ -261,6 +261,10 @@ justify-content: center;
     width: 80vw;
   }
 
+  .navbar{
+    height: 10vh;
+  }
+
   .about{
     flex-direction: column;
   }
