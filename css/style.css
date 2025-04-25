@@ -28,6 +28,7 @@ body{
 
 .navbar-nav{
   flex-direction: column;
+  background-color: white;
 }
 
 .logo-desktop {
@@ -40,7 +41,9 @@ body{
 
 .logo-mobile {
   display: none;
-  height: 50px;
+  height: 45px;
+  padding: 0;
+  margin-right: 10px;
 }
 
 .custom-navlinks {
@@ -49,6 +52,7 @@ body{
   font-family: "Poppins", sans-serif;
   font-weight: 400;
 }
+
 .custom-img{
   border-radius: 8px;
   box-shadow:4px 8px 10px rgba(232, 75, 121, 0.25);
@@ -257,6 +261,10 @@ justify-content: center;
     align-items: center;
   }
 
+  .topbar-mobile{
+    background-color: var(--my-background-color);
+  }
+
   main .img{
     width: 80vw;
   }
@@ -308,6 +316,19 @@ justify-content: center;
     margin-bottom: 1vh;
   }
 
+  .service{
+    margin-top: 3vh;
+    margin-bottom: 0;
+  }
+
+  .title-service{
+    margin-top: 2vh;
+  }
+
+  .nav-item{
+    background-color: white;
+  }
+  
   
 }
 
@@ -325,16 +346,30 @@ justify-content: center;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 0.5rem 1rem;
+    height: 10vh;
+
   }
 
   .navbar-toggler {
     margin: 0;
+    background-color: var(--my-background-color);
+
   }
   .custom-navbar {
     background-color: var(--my-background-color);
+    position: relative;
+    z-index: 1050;
   }
 
+  .custom-navlinks a{
+    z-index: 1050;
+    position: relative;
+   background-color: solid 3px var(--my-background-color) !important;
+  }
+
+  .ul-background{
+    background-color: var(--my-background-color)
+  }
   .navbar-brand {
     margin: 0;
   }
