@@ -79,7 +79,7 @@ main{
 }
 
 main img{
-  width: 40vw;
+  width: 45vw;
   margin-left: 3vw;
 }
 
@@ -262,15 +262,12 @@ justify-content: center;
 @media (max-width: 992px) {
   main{
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    margin: auto;
   }
 
   .topbar-mobile{
     background-color: var(--my-background-color);
-  }
-
-  main .img{
-    width: 80vw;
   }
 
   main .main-text{
@@ -283,6 +280,10 @@ justify-content: center;
 
   .nav-item{
     background-color: var(--my-card-color);
+  }
+
+  .navbar-toggler{
+    margin-left: 1  vw !important;
   }
 
   .about{
@@ -299,13 +300,16 @@ justify-content: center;
     margin: 2vw;
     text-align: center;
   }
+
   footer{
     flex-direction: column;
   }
+
   footer iframe{
     width: 80vw;
     margin-bottom: 3vh;
   }
+
   footer form{
     width: 80vw;
   }
@@ -332,13 +336,33 @@ justify-content: center;
   .nav-item{
     background-color: white;
   }
-  
-  
+    main img{
+    width: 75%;
+    margin: auto;
+  }
+
+  main div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 768px) {
+  main{
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+  }
+
   .logo-desktop {
     display: none;
+  }
+
+
+  main .main-text{
+    width: 70vw;
   }
 
   .logo-mobile {
@@ -351,7 +375,6 @@ justify-content: center;
     align-items: center;
     width: 100%;
     height: 10vh;
-
   }
 
   .navbar-toggler {
@@ -374,15 +397,17 @@ justify-content: center;
   .ul-background{
     background-color: var(--my-background-color)
   }
+
   .navbar-brand {
     margin: 0;
   }
+
   .product-section{
     flex-direction: column;
   }
+
   .basics-text{
     text-align: center;
     max-width: 85%;
   }
-
 }
